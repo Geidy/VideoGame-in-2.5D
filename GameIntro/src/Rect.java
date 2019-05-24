@@ -1,8 +1,6 @@
 import java.awt.*;
 
-
-public class Rect
-{
+public class Rect {
 	int x;
 	int y;
 	
@@ -71,5 +69,6 @@ public class Rect
 	{
 		g.drawRect(x, y, w, h);
 	}
+
 
 }

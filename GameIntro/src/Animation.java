@@ -1,8 +1,7 @@
-
 import java.awt.*;
 
-public class Animation
-{
+public class Animation {
+	
 	private Image[] image;
 	private int     current = 0;
 	private int     duration;
@@ -43,6 +42,5 @@ public class Animation
 	{
 		return image[0];
 	}
-	
 
 }

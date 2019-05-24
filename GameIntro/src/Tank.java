@@ -1,8 +1,7 @@
 import java.awt.*;
 
-public class Tank extends PolygonModel
-{
-	int gunAngle;
+public class Tank extends PolygonModel{
+int gunAngle;
 	
 	public Tank(int x, int y, int angle)
 	{
@@ -62,5 +61,5 @@ public class Tank extends PolygonModel
    	
    	return x_struct;
 	}
+
 }
-	

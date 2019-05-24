@@ -1,5 +1,5 @@
-public class Lookup
-{
+
+public class Lookup {
 	public static final double[] cos = generateCos();
 	public static final double[] sin = generateSin();
 	
@@ -28,4 +28,5 @@ public class Lookup
 		return sin;
 	}
 	
+
 }

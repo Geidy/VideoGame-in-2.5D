@@ -1,8 +1,7 @@
 import java.awt.Color;
 import java.awt.Graphics;
 
-public abstract class PolygonModel 
-{
+public abstract class PolygonModel {
 	double   x;      
 	double   y;
 	
@@ -92,4 +91,5 @@ public abstract class PolygonModel
 			g.drawPolygon(x_temp, y_temp, x_struct[poly].length);			
 		}
 	}
+
 }

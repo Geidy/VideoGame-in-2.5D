@@ -1,11 +1,13 @@
+
 public class BattleLord extends Sprite
 {
-	static String[] poses = { "up", "dn", "lt", "rt"};
+ static String[] poses = { "up", "dn", "lt", "rt"};
 	
-	public BattleLord(int x, int y)
+	public BattleLord(int x, int y, int z, int w, int h)
 	{
-		super(x, y, "bl", poses, 5, 10);
+		super(x, y, z, w, h, "bl", poses, 5, 10);
 	}
 	
+
 
 }
